@@ -1,9 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>San Valentín 💛</title>
+    <meta charset="UTF-8">
+    <title>San Valentín 💛</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div id="escena" class="escena">
+    <div class="overlay"></div>
+
+    <!-- Brillos y corazones -->
+    <canvas id="particles"></canvas>
+
+    <!-- Fuegos finales -->
+    <canvas id="fireworks" class="hidden"></canvas>
+
+    <div class="contenido">
+        <h1 id="texto"></h1>
+
+        <div class="buttons">
+            <button id="btnSi">Sí 💛</button>
+            <button id="btnNo">No 😒</button>
+        </div>
+
+        <div id="celebracion" class="celebracion hidden">
+            💖🎆✨
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
