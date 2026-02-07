@@ -57,7 +57,7 @@ btnSi.onclick = () => {
 /* MAGIA ESCENA 1 – ESTRELLAS + ORBES */
 const stars = document.getElementById("stars");
 
-for (let i = 0; i < 1800; i++) {
+for (let i = 0; i < 1000; i++) {
     const s = document.createElement("span");
 
     const tipo = Math.random();
