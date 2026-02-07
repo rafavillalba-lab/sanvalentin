@@ -2,31 +2,44 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>San Valentín 💛</title>
+    <title>San Valentín 💖</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div id="escena" class="escena">
-    <div class="overlay"></div>
+<div id="fondo"></div>
+<div id="halos"></div>
+<div id="stars"></div>
 
-    <!-- Brillos y corazones -->
-    <canvas id="particles"></canvas>
+<!-- BRILLOS -->
+<div id="stars"></div>
 
-    <!-- Fuegos finales -->
-    <canvas id="fireworks" class="hidden"></canvas>
+<!-- ESCENA 1 -->
+<div class="card" id="escena1">
+    <h1>Hey Mar <span class="heart">❤️</span></h1>
+    <p class="sub">Lot tiene una pregunta para ti...</p>
 
-    <div class="contenido">
-        <h1 id="texto"></h1>
+    <div class="question-box">
+        <p id="pregunta"></p>
+    </div>
 
-        <div class="buttons">
-            <button id="btnSi">Sí 💛</button>
-            <button id="btnNo">No 😒</button>
-        </div>
+    <div class="buttons">
+        <button id="btnSi">Sii ❤️</button>
+        <button id="btnNo">No</button>
+    </div>
 
-        <div id="celebracion" class="celebracion hidden">
-            💖🎆✨
-        </div>
+    <p id="fraseNo" class="frase"></p>
+</div>
+
+<!-- ESCENA 2 -->
+<div class="card hidden" id="escena2">
+    <h2>SÍII 💖</h2>
+    <p class="final-text">
+        Te quiero mucho, prepárate que te voy a llevar a cenar 🍽️✨
+    </p>
+
+    <div class="video-box">
+        <video src="media1.mp4" autoplay loop muted playsinline></video>
     </div>
 </div>
 
